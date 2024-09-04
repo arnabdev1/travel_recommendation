@@ -1,0 +1,53 @@
+body {
+    background-color: #black; 
+    color: #000;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+#nav{
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+#searchInput{
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+.searchbutton{
+    background-color: black;
+    color: #fff;
+}
+#searchparent{
+    background-color: yellow;
+    border-radius: 10px;
+    height: 35px;
+    padding: 5px;
+    gap: 50px;
+}
+
+.home{
+    height: 100vh;
+}
+#about-us{
+    height: 80vh;
+}
+#contact-us{
+    height: 80vh;
+}
+#formparent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 2vw;
+}
